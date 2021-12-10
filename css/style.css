@@ -57,7 +57,7 @@ nav form{
 nav form .search-products{
     width: 100%;
     height: 100%;
-    color: #fff;
+    color: #232024;
     font-weight: 500;
     border: none;
     font-size: 17px;
@@ -75,19 +75,6 @@ nav form button{
     font-size: 17px;
     border-radius: 2px;
 }
-
-nav .menu-icon,
-nav .search-icon,
-nav .cancel-icon{
-    width: 40px;
-    color:#fff;
-    text-align: center;
-    margin:0 50px;
-    font-size: 18px;
-    cursor: pointer;
-    display: none;
-}
-
 
 /*  Header  */
 header .normal-img{
