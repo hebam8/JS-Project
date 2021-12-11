@@ -221,21 +221,22 @@ font-size: 20px;
   .row {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    justify-content:space-evenly;
+    
   }
   .subsc-div {
     margin-left: 16.67%;
     position: relative;
     width: 100%;
     min-height: 1px;
+    margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
   }
-  .newslatter {
-    padding: 60px;
+  .newsletter {
+   
   }
-  .newslatter h4 {
+  .newsletter h4 {
     font-weight: 600;
     font-size: 35px;
     line-height: 25px;
@@ -248,14 +249,16 @@ font-size: 20px;
   .bottom-form {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 55px;
+    margin-top: 4%;
+    margin-left: 10%;
+    width: 100%;
   }
   .bottom-form .enter {
     border: inherit;
     padding: 0px 19px;
     height: 61px;
     background: white;
-    color: #d5d2d2;
+    color: black;
     font-size: 20px;
     font-weight: 300;
     float: left;
@@ -277,7 +280,7 @@ font-size: 20px;
     font-size: 17px;
     padding: 5px 0px;
     max-width: 270px;
-    width: 100%;
+    width: 60%;
     font-weight: normal;
     text-transform: uppercase;
     height: 61px;
