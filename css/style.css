@@ -193,28 +193,7 @@ font-size: 30px;
     border-radius: 10px 10px 0 0;
     background-size:cover;
   }
-  .card-image1{
-  background-image: url(../img/yellow.jpg);
-  
-  }
-  .card-image2{
-    background-image: url(../img/whitesneakers.jpg);
-    
-  }
-  .card-image3{
-      background-image: url(../img/white.jpg);
-     }
-  .card-image4{
-        background-image: url(../img/black.jpg);
-        
-  }
-  .card-image5{
-          background-image: url(../img/orange.jpg);
-   }
-  .card-image6{
-          background-image: url(../img/red.jpg);
-   }
-section .fa-shopping-cart{
+ section .fa-shopping-cart{
 color: white;
 background-color: yellowgreen;
 padding: 5px;
