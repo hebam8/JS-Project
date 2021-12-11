@@ -84,6 +84,148 @@ header .normal-img{
 header .mobile-img{
     display: none;
 }
+/* Prodcuts Section  */
+.our_product{
+    width: 100%;
+    height: 100px;
+}
+.hot_deals
+{
+text-align:center;
+color: #ff4f00;
+font-size: 30px;
+}
+.nav-2 ul
+{
+  list-style-type: none;
+
+  display:flex;
+  justify-content: center;
+}
+.nav-2 ul li{
+  margin: auto 0;
+  padding: 10px;
+}  
+
+.nav-2 ul a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: black;
+}
+.nav-2 ul a:hover {
+    padding:5px 2px 5px 2px;
+    background-color: #ff4f00;
+    color: white;
+    border-radius: 7px;
+}
+.container{
+    display: flex;
+    margin: 15px auto;
+    width: 60%;
+    justify-content:right;
+    flex-wrap:wrap;
+}
+  section .card{
+    background-color:#ebf4f6;
+    width: 300px;
+    height:300px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+  }
+.card-image .shose_name{
+    background-color: #ff4f00;
+    color: white;
+    margin: 30px;
+    position: absolute;
+    right:-20px; 
+    top:-20px;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.card-image .save{
+    top:0px;
+    left:0px;
+    background-color: black;
+    color: white;
+    border-radius: 0  0 10px   0;
+    font-size: 30px;
+}
+  section .card h3{
+    padding: 2%;
+    font-size: 21px;
+    text-align:center;
+  }
+ .old_salary{
+  background-color: #ebf4f6;
+  text-decoration: line-through;
+  color: #97978f;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  bottom: 45px;
+  left: 15px;
+}
+ .new_salary{
+  background-color: #ebf4f6;
+  color: #ff4f00;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  bottom: 13px;
+  left: 15px;
+ }
+  section .card span{
+    background-color:#ebf4f6;
+    color: #7871e6;
+    text-align:center;
+    font-weight:bold;
+    margin: 0 auto;
+    position:absolute;
+    font-size: 25px;
+    padding-left: 10px;
+ }  
+  .card-image{
+    background-color:#ebf4f6 ;
+    height: 60%;
+    border-radius: 10px 10px 0 0;
+    background-size:cover;
+  }
+  .card-image1{
+  background-image: url(../img/yellow.jpg);
+  
+  }
+  .card-image2{
+    background-image: url(../img/whitesneakers.jpg);
+    
+  }
+  .card-image3{
+      background-image: url(../img/white.jpg);
+     }
+  .card-image4{
+        background-image: url(../img/black.jpg);
+        
+  }
+  .card-image5{
+          background-image: url(../img/orange.jpg);
+   }
+  .card-image6{
+          background-image: url(../img/red.jpg);
+   }
+section .fa-shopping-cart{
+color: white;
+background-color: yellowgreen;
+padding: 5px;
+position: absolute;
+right:10px;
+bottom:10px;
+font-size: 20px;
+}
+/* Prodcuts Section  */
+
+
 /* Responsive Mobile */
 @media(max-width:1245px){
   
