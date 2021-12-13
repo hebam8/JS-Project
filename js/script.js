@@ -63,16 +63,16 @@ for(let i = 0; i < len; i++){
 
 },()=>{}) 
 var strengthName = document.getElementById("Strength");
-getProducts("/js/json/products.json")
+getProducts("/js/json/strength.json")
 .then((data)=>{
-var len = data.prodcuts.length;
+var len = data.strength.length;
 for(let i = 0; i < len; i++){
     strengthName.innerHTML += `<div class="card">
-    <div class="card-image"> <img src="img/${data.prodcuts[i].photo}" width="300px" height="180px" alt=""><span class="save">SAVE 25%</span> <span
+    <div class="card-image"> <img src="img/${data.strength[i].photo}" width="300px" height="180px" alt=""><span class="save">SAVE 25%</span> <span
             class="shose_name">AVALANCHE</span></div>
-    <h3>${data.prodcuts[i].productName}</h3>
-    <div class="old_salary">$${data.prodcuts[i].old_price}</div>
-    <div class="new_salary">$${data.prodcuts[i].price}</div>
+    <h3>${data.strength[i].productName}</h3>
+    <div class="old_salary">$${data.strength[i].old_price}</div>
+    <div class="new_salary">$${data.strength[i].price}</div>
     <i class="fas fa-shopping-cart"></i>
      </div>`
 } 

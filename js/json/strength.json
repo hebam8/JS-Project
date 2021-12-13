@@ -1,0 +1,43 @@
+{
+    "strength" :[
+        
+        {
+            "productName":"Reverse Fly",
+            "price":"300",
+            "old_price":"350",
+            "photo":"reverseFly.jpg"
+    
+        },
+        {
+            "productName":"Delts Machine",
+            "price":"250",
+            "old_price":"300",
+            "photo":"deltsMachine.jpg"
+        },
+        {
+            "productName":"proneLeg",
+            "price":"270",
+            "old_price":"340",
+            "photo":"proneLeg.jpg"
+        },
+        {
+            "productName":"legExtension",
+            "price":"340",
+            "old_price":"360",
+            "photo":"legExtension.jpg"
+        },
+        {
+            "productName":"pullDown",
+            "price":"24",
+            "old_price":"30",
+            "photo":"pullDown.jpg"
+        },
+        {
+            "productName":"verticalTraction",
+            "price":"360",
+            "old_price":"400",
+            "photo":"verticalTraction.jpg"
+        }
+       
+     ]
+    }
