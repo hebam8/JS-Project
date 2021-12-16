@@ -20,7 +20,7 @@ var len = data.prodcuts.length;
 for(let i = 0; i < len; i++){
     productsView.innerHTML += `<div class="card">
     <div class="card-image"> <img src="img/${data.prodcuts[i].photo}" width="300px" height="180px" alt=""><span class="save">SAVE 25%</span> <span
-            class="shose_name">AVALANCHE</span></div>
+    class="shose_name">AVALANCHE</span></div>
     <h3>${data.prodcuts[i].productName}</h3>
     <div class="old_salary">$${data.prodcuts[i].old_price}</div>
     <div class="new_salary">$${data.prodcuts[i].price}</div>
@@ -37,7 +37,7 @@ var len = data.prodcuts.length;
 for(let i = 0; i < len; i++){
     bikesName.innerHTML += `<div class="card">
     <div class="card-image"> <img src="img/${data.prodcuts[i].photo}" width="300px" height="180px" alt=""><span class="save">SAVE 25%</span> <span
-            class="shose_name">AVALANCHE</span></div>
+     class="shose_name">AVALANCHE</span></div>
     <h3>${data.prodcuts[i].productName}</h3>
     <div class="old_salary">$${data.prodcuts[i].old_price}</div>
     <div class="new_salary">$${data.prodcuts[i].price}</div>
@@ -52,8 +52,8 @@ getProducts("/js/json/products.json")
 var len = data.prodcuts.length;
 for(let i = 0; i < len; i++){
     caridoName.innerHTML += `<div class="card">
-    <div class="card-image"> <img src="img/${data.prodcuts[i].photo}" width="300px" height="180px" alt=""><span class="save">SAVE 25%</span> <span
-            class="shose_name">AVALANCHE</span></div>
+    <div class="card-image"> <img class="imgSize" src="img/${data.prodcuts[i].photo}"  alt=""><span class="save">SAVE 25%</span> <span
+    class="shose_name">AVALANCHE</span></div>
     <h3>${data.prodcuts[i].productName}</h3>
     <div class="old_salary">$${data.prodcuts[i].old_price}</div>
     <div class="new_salary">$${data.prodcuts[i].price}</div>
@@ -68,8 +68,8 @@ getProducts("/js/json/strength.json")
 var len = data.strength.length;
 for(let i = 0; i < len; i++){
     strengthName.innerHTML += `<div class="card">
-    <div class="card-image"> <img src="img/${data.strength[i].photo}" width="300px" height="180px" alt=""><span class="save">SAVE 25%</span> <span
-            class="shose_name">AVALANCHE</span></div>
+    <div class="card-image"> <img src="img/${data.strength[i].photo}" class="imgSize" alt=""><span class="save">SAVE 25%</span> <span
+    class="shose_name">AVALANCHE</span></div>
     <h3>${data.strength[i].productName}</h3>
     <div class="old_salary">$${data.strength[i].old_price}</div>
     <div class="new_salary">$${data.strength[i].price}</div>

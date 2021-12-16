@@ -15,25 +15,25 @@
             "photo":"deltsMachine.jpg"
         },
         {
-            "productName":"proneLeg",
+            "productName":"Prone Leg",
             "price":"270",
             "old_price":"340",
             "photo":"proneLeg.jpg"
         },
         {
-            "productName":"legExtension",
+            "productName":"Leg Extension",
             "price":"340",
             "old_price":"360",
             "photo":"legExtension.jpg"
         },
         {
-            "productName":"pullDown",
+            "productName":"Pull Down",
             "price":"24",
             "old_price":"30",
             "photo":"pullDown.jpg"
         },
         {
-            "productName":"verticalTraction",
+            "productName":"Vertical Traction",
             "price":"360",
             "old_price":"400",
             "photo":"verticalTraction.jpg"
