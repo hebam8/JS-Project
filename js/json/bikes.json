@@ -1,0 +1,43 @@
+{
+    "bikes" :[
+        
+        {
+            "productName":"Pivot Cycle",
+            "price":"650",
+            "old_price":"700",
+            "photo":"bike14.jpg"
+    
+        },
+        {
+            "productName":"Bergamont Contrail",
+            "price":"700",
+            "old_price":"750",
+            "photo":"bike11.jpg"
+        },
+        {
+            "productName":"Canyon Sender",
+            "price":"680",
+            "old_price":"760",
+            "photo":"bike21.jpg"
+        },
+        {
+            "productName":"Dirt Jump Forks",
+            "price":"800",
+            "old_price":"850",
+            "photo":"bike9.jpg"
+        },
+        {
+            "productName":"Pivot Switchblade 29 Goldedition",
+            "price":"700",
+            "old_price":"750",
+            "photo":"bike12.jpg"
+        },
+        {
+            "productName":"Enduro Bike Mountain Bike",
+            "price":"590",
+            "old_price":"680",
+            "photo":"bike13.jpg"
+        }
+       
+     ]
+    }

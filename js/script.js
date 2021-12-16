@@ -31,32 +31,32 @@ for(let i = 0; i < len; i++){
 },()=>{})
 
  var bikesName = document.getElementById("bikes");
-getProducts("/js/json/products.json")
+getProducts("/js/json/bikes.json")
 .then((data)=>{
-var len = data.prodcuts.length;
+var len = data.bikes.length;
 for(let i = 0; i < len; i++){
     bikesName.innerHTML += `<div class="card">
-    <div class="card-image"> <img src="img/${data.prodcuts[i].photo}" width="300px" height="180px" alt=""><span class="save">SAVE 25%</span> <span
+    <div class="card-image"> <img src="img/${data.bikes[i].photo}" width="300px" height="180px" alt=""><span class="save">SAVE 25%</span> <span
             class="shose_name">AVALANCHE</span></div>
-    <h3>${data.prodcuts[i].productName}</h3>
-    <div class="old_salary">$${data.prodcuts[i].old_price}</div>
-    <div class="new_salary">$${data.prodcuts[i].price}</div>
+    <h3>${data.bikes[i].productName}</h3>
+    <div class="old_salary">$${data.bikes[i].old_price}</div>
+    <div class="new_salary">$${data.bikes[i].price}</div>
     <i class="fas fa-shopping-cart"></i>
      </div>`
 } 
 
 },()=>{}) 
 var caridoName = document.getElementById("Cardio");
-getProducts("/js/json/products.json")
+getProducts("/js/json/cardio.json")
 .then((data)=>{
-var len = data.prodcuts.length;
+var len = data.cardio.length;
 for(let i = 0; i < len; i++){
     caridoName.innerHTML += `<div class="card">
-    <div class="card-image"> <img src="img/${data.prodcuts[i].photo}" width="300px" height="180px" alt=""><span class="save">SAVE 25%</span> <span
+    <div class="card-image"> <img src="img/${data.cardio[i].photo}" width="300px" height="180px" alt=""><span class="save">SAVE 25%</span> <span
             class="shose_name">AVALANCHE</span></div>
-    <h3>${data.prodcuts[i].productName}</h3>
-    <div class="old_salary">$${data.prodcuts[i].old_price}</div>
-    <div class="new_salary">$${data.prodcuts[i].price}</div>
+    <h3>${data.cardio[i].productName}</h3>
+    <div class="old_salary">$${data.cardio[i].old_price}</div>
+    <div class="new_salary">$${data.cardio[i].price}</div>
     <i class="fas fa-shopping-cart"></i>
      </div>`
 } 
