@@ -1,0 +1,43 @@
+{
+    "cardio" :[
+        
+        {
+            "productName":"Bike Machine",
+            "price":"480",
+            "old_price":"550",
+            "photo":"cardio10.jpg"
+    
+        },
+        {
+            "productName":"Skipping Rope",
+            "price":"50",
+            "old_price":"70",
+            "photo":"cardio20.jpg"
+        },
+        {
+            "productName":"Ellptical Fitness",
+            "price":"500",
+            "old_price":"570",
+            "photo":"cardio11.jpg"
+        },
+        {
+            "productName":"Cross Trainer",
+            "price":"600",
+            "old_price":"640",
+            "photo":"cardio12.jpg"
+        },
+        {
+            "productName":"Back Extension",
+            "price":"200",
+            "old_price":"250",
+            "photo":"cardio4.jpg"
+        },
+        {
+            "productName":"Dumbbells",
+            "price":"80",
+            "old_price":"100",
+            "photo":"cardio15.jpg"
+        }
+       
+     ]
+    }
