@@ -93,3 +93,17 @@ function scrollFunction() {
 function topFunction() {
    window.scrollTo({top: 0, behavior: 'smooth'});
   }
+  //  Drop Down
+  var dropdown = document.querySelector(".dropdown-btn");
+let dropdownButtonsContainer = dropdown.nextElementSibling;
+dropdown.addEventListener("click", (e) => {
+  dropdownButtonsContainer.classList.toggle("active");
+});
+
+let currentActive = null
+for (var i = 0; i < dropdownButtonsContainer.children.length; i++) {
+  dropdownButtonsContainer.children[i].addEventListener("click", function () {
+    currentActive = dropdownButtonsContainer.children[i];
+    currentActive.classList.toggle("active");
+  });
+}
