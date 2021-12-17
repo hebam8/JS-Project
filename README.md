@@ -6,7 +6,6 @@ Sportio has achieved most of online shopping website features, such as featured 
 
 This project was developed with HTML5, CSS, Vanilla Javascript.
 
-Developed By :  Heba Mansour Abdallah Mansour
-                Muhammad Gamal Abd Elnasser Afifi
-                Salma Osama Mohammed Mohammed
-                Yasser Shehab El-deen Fathy
+Developed By :  Heba Mansour Abdallah Mansour , Muhammad Gamal Abd Elnasser Afifi , Salma Osama Mohammed Mohammed ,  Yasser Shehab El-deen Fathy
+                
+              
